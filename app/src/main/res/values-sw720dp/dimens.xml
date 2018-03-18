@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_width">150dp</dimen>
+    <dimen name="button_layout_top_margin">10dp</dimen>
+    <dimen name="second_text_left_margin">225dp</dimen>
+    <dimen name="third_text_left_margin">240dp</dimen>
+
+    <dimen name="padding_standard_x">72dp</dimen>
+    <dimen name="padding_standard_x1.5_x">72dp</dimen>
+</resources>

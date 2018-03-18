@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.karthikreddy.inteliment.MainActivity">
+
+
+    <HorizontalScrollView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/action_image_height"
+                app:srcCompat="@drawable/ic_cam"
+                tools:src="@drawable/ic_cam"
+                android:contentDescription="@string/camera_description" />
+
+            <ImageView
+                android:id="@+id/alarm"
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/action_image_height"
+                app:srcCompat="@drawable/ic_alarm"
+                tools:src="@drawable/ic_alarm"
+                android:contentDescription="@string/alarm" />
+
+            <ImageView
+                android:id="@+id/location"
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/action_image_height"
+                app:srcCompat="@drawable/ic_loc"
+                tools:src="@drawable/ic_loc"
+                android:contentDescription="@string/location" />
+
+            <ImageView
+                android:id="@+id/music"
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/action_image_height"
+                app:srcCompat="@drawable/ic_music"
+                tools:src="@drawable/ic_music"
+                android:contentDescription="@string/music" />
+
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/action_image_height"
+                app:srcCompat="@drawable/ic_settings"
+                tools:src="@drawable/ic_settings"
+                android:contentDescription="@string/settings" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_pager_height"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/menu" />
+
+
+    <LinearLayout
+        android:id="@+id/TextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewpager"
+        android:orientation="horizontal"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/second_text_left_margin"
+            android:text="@string/text_2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/third_text_left_margin"
+            android:text="@string/text_3"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/actionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextLayout"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionText"
+        android:layout_marginTop="@dimen/button_layout_top_margin">
+
+        <Button
+            android:id="@+id/greenButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/green_btn" />
+
+        <Button
+            android:id="@+id/RedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/red_btn" />
+
+        <Button
+            android:id="@+id/blueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/blue_btn" />
+    </LinearLayout>
+
+</RelativeLayout>

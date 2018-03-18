@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_standard_x">72dp</dimen>
+    <dimen name="padding_standard_x1.5_x">72dp</dimen>
+    <dimen name="action_image_height">80dp</dimen>
+    <dimen name="image_width">100dp</dimen>
+    <dimen name="view_pager_height">80dp</dimen>
+    <dimen name="button_layout_top_margin">30dp</dimen>
+    <dimen name="second_text_left_margin">100dp</dimen>
+    <dimen name="third_text_left_margin">90dp</dimen>
+</resources>

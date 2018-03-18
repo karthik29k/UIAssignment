@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inteliment</string>
+    <string name="go_to_settings">Go To Settings</string>
+    <string name="listen_music">Listen Music</string>
+    <string name="location_on">Location On</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="take_a_photo">Take a Photo</string>
+    <string name="blue_btn">Blue Background</string>
+    <string name="red_btn">Red Background</string>
+    <string name="green_btn">Green Background</string>
+    <string name="text_1">Text 1</string>
+    <string name="text_2">Text 2</string>
+    <string name="text_3">Text 3</string>
+    <string name="camera_description">camera</string>
+    <string name="settings">settings</string>
+    <string name="location">location</string>
+    <string name="music">music</string>
+    <string name="alarm">alarm</string>
+</resources>
