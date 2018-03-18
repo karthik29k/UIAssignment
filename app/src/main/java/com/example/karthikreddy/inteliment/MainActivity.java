@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 import icepick.Icepick;
 import icepick.Icicle;
@@ -33,11 +34,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
 
         List<Fragment> fragments = getFragments();
 
         pageAdapter = new PageAdapter(getSupportFragmentManager(), fragments);
-        ViewPager pager = (ViewPager) findViewById(R.id.viewpager);
+        ViewPager pager = findViewById(R.id.viewpager);
         pager.setAdapter(pageAdapter);
 
     }
@@ -125,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
             return this.fragments.get(position);
         }
 
-        @Override @NonNull
+        @Override
         public int getCount() {
             return this.fragments.size();
         }

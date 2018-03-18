@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-23:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ankireds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17830377fda70491f212929acf3e31fa/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ankireds/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/22282dbfe105f1d1f8460f41639b628e/AndroidManifest.xml:2:1-11:12
 MERGED from [com.jakewharton:butterknife:8.8.1] /Users/ankireds/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/9c709aa88f4c228b04ee0593a918319f/AndroidManifest.xml:2:1-7:12
@@ -16,25 +16,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /Users/ankireds/.gra
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/ankireds/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/80c3206115fb275ac3d1651c9b94e15b/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/ankireds/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/5e12913e5720b8de89d5c41b483d51f7/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ankireds/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9109e33409051fdaaca370f417953fdf/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:3:5-50
 		INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-22:12
+		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-22:12
+		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:5:5-20:19
+ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ankireds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17830377fda70491f212929acf3e31fa/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ankireds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17830377fda70491f212929acf3e31fa/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ankireds/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/22282dbfe105f1d1f8460f41639b628e/AndroidManifest.xml:9:5-20
@@ -67,20 +67,22 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ankireds/.gradle/cache
 		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
 		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.example.karthikreddy.inteliment.MainActivity
-ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:12:9-19:20
+ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:13:9-20:20
 	android:name
-		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:13:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:14:13-18:29
+ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:17:17-77
+ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml:18:27-74
 uses-sdk
 INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ankireds/Downloads/Inteliment/app/src/main/AndroidManifest.xml

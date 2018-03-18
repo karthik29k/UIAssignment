@@ -5,7 +5,6 @@
     android:id="@+id/mainRelativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
     tools:context="com.example.karthikreddy.inteliment.MainActivity">
 
 
@@ -73,7 +72,7 @@
     <LinearLayout
         android:id="@+id/TextLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/view_pager_height"
         android:layout_below="@+id/viewpager"
         android:orientation="horizontal"
         android:paddingLeft="4dp"
@@ -126,21 +125,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/green_btn" />
+            android:text="@string/green_btn"
+            android:autoSizeTextType="uniform"/>
 
         <Button
             android:id="@+id/RedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/red_btn" />
+            android:text="@string/red_btn"
+            android:autoSizeTextType="uniform" />
 
         <Button
             android:id="@+id/blueButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/blue_btn" />
+            android:text="@string/blue_btn"
+            android:autoSizeTextType="uniform" />
     </LinearLayout>
 
 </RelativeLayout>
