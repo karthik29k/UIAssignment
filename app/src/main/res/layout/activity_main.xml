@@ -130,7 +130,7 @@
             android:autoSizeTextType="uniform"/>
 
         <Button
-            android:id="@+id/RedButton"
+            android:id="@+id/redButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

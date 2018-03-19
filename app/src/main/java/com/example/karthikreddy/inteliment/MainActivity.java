@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         relativeLayout.setBackgroundColor(Color.GREEN);
     }
 
-    @OnClick(R.id.RedButton)
+    @OnClick(R.id.redButton)
     public void onRedButtonClicked() {
         relativeLayout.setBackgroundColor(Color.RED);
     }
